@@ -3,9 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DapperFramework", "DapperFramework", "{08096677-A861-44EF-B291-11DC7276E0C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFramework", "EntityFramework", "{8DD5A068-16FE-40F0-A55F-5ADA66FDDA0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Model", "Education.Model\Education.Model.csproj", "{34529B32-19FD-452F-BB7A-438DBBDC1FFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.DapperModel", "Education.DapperModel\Education.DapperModel.csproj", "{D42C5355-184B-4BD7-9190-024AC0B01D0D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34529B32-19FD-452F-BB7A-438DBBDC1FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34529B32-19FD-452F-BB7A-438DBBDC1FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34529B32-19FD-452F-BB7A-438DBBDC1FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34529B32-19FD-452F-BB7A-438DBBDC1FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42C5355-184B-4BD7-9190-024AC0B01D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42C5355-184B-4BD7-9190-024AC0B01D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42C5355-184B-4BD7-9190-024AC0B01D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42C5355-184B-4BD7-9190-024AC0B01D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34529B32-19FD-452F-BB7A-438DBBDC1FFE} = {8DD5A068-16FE-40F0-A55F-5ADA66FDDA0B}
+		{D42C5355-184B-4BD7-9190-024AC0B01D0D} = {08096677-A861-44EF-B291-11DC7276E0C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66153575-C06F-461C-8550-DB893D13EC18}
